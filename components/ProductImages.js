@@ -50,7 +50,10 @@ export default function ProductImages({ images }) {
           active={activeImage === src2}
           onClick={() => setActiveImage(src2)}
         >
-          <Image src="https://images.unsplash.com/photo-1617294864705-eaf3c911259f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" />
+          <Image
+            src="https://images.unsplash.com/photo-1617294864705-eaf3c911259f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+            alt=""
+          />
         </ImageButton>
         <ImageButton
           active={activeImage === src}
